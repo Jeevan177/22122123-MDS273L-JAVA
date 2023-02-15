@@ -87,3 +87,4 @@ public class Lab2 {
         } while(key == 1);  
     }
 }
+
