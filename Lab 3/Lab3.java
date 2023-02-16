@@ -13,9 +13,16 @@ public class Lab3{
     }
 
     static int medianfunction(int arr1[], int n) {
-        Arrays.sort(arr1);
-        System.out.println("The sorted array is: ");
-        System.out.println(" ");
+        for(int j = 0; j < arr1.length - 1; j++){
+            if(arr1[j] > arr1[j + 1]){
+                int temp = arr1[j];
+                arr1[j] = arr1[j +1];
+                arr1[j + 1] = temp;
+                j = -1;
+                for(int i = 0; i<arr1.length; i++){
+                }
+            }
+        }
         for (int i = 0; i < arr1.length; i++) {
             System.out.print(arr1[i] + " ");
         }

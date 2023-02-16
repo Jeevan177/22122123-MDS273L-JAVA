@@ -41,22 +41,21 @@ Enter value for array:
 Enter value for array:
 3
 Enter value for array:
+4
+Enter value for array:
+55
+Enter value for array:
 2
 Enter value for array:
-1
-Enter value for array:
-54
-Enter value for array:
-11 3 2 1 54 34
+33
+11 3 4 55 2 33
 
 Options to perform
 1.Mean
 2.Median
 3.Mode
 2
-The sorted array is:
-
-1 2 3 11 34 54 
+2 3 4 11 33 55 
 Median is: 7
 
 For Mode:
