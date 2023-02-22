@@ -76,7 +76,6 @@ public class Lab3{
         int Option;
         Option = Integer.parseInt(scan.nextLine());
         switch (Option) {
-            case 1:
                 mean = meanfunction(arr1);
                 System.out.println("Mean is: " + mean);
                 break;
@@ -88,9 +87,11 @@ public class Lab3{
                 mode = modefunction(arr1, n);
                 System.out.println("Mode is: " + mode);
                 break;
-
+        
         }
 
     }
+
+
 
 }
