@@ -63,6 +63,8 @@ public class Lab5 {
             for(int i = 0;i<counter;i++){
                 if(name.equalsIgnoreCase(studentarray[i].Name)){
                     System.out.println("Student Found");
+                }else{
+                    System.out.println("Not found");
                 }
             }
         } else if(opt == 2){
@@ -72,6 +74,8 @@ public class Lab5 {
                 int Reg = studentarray[i].Reg_no;
                 if(reg_no == Reg){
                     System.out.println("Student Found");
+                }else{
+                    System.out.println("Not found");
                 }
             }
         }
@@ -90,11 +94,12 @@ public class Lab5 {
         char choice = 'n';
 
         do{
-            choice = sc.nextLine().charAt(0);
+            
             System.out.println("Options");
             System.out.println("1. Add Name");
             System.out.println("2. Search a Student");
             System.out.println("3. Display Student Details");
+        
  
             int option = Integer.parseInt(sc.nextLine());
             switch(option){
@@ -108,7 +113,8 @@ public class Lab5 {
                     displayStudent(studentarray);
                     break;
             }
-
+            System.out.println("Do you want continue?");
+            choice = sc.nextLine().charAt(0);
 
         }while(choice == 'n' || choice == 'N');
     }
