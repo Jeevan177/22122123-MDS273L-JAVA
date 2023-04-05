@@ -1,13 +1,18 @@
 Here 1st task is to count vowels from the text file:
 The class reads the text file, the loop goes through each line of the file and checks for each character if it matches with the character then counts its occurance and prints the count.
+
 2nd task is to count the digits from text file:
 The class reads the text file, the loop goes through each line of the file and checks for each digit if it matches with the digit then counts its occurance and prints the count.
+
 3rd task it to count top 5 words used:
 The class reads the text file, HashMap counts the occurrance of each word. The main loop goes through each line, using HashMap program finds the word which is occurring many times and gives the count.
+
 4th task is to count the least words used:
 The class reads the text file, HashMap counts the occurrance of each word. The main loop goes through each line, using HashMap program finds the word which is occurring few times and gives the count.
+
 5th task is to find top characters count:
 The class reads the text file. Then loops through each character in the file and increments the count of character in charcount array. It again uses loop and finds largest of it and gives the count.
+
 6th task is to find least characters count:
 The class reads the text file. Then loops through each character in the file and increments the count of character in charcount array. It again uses loop and finds smallest of it and gives the count.
 
@@ -89,3 +94,4 @@ The top categories are:
 19. Elections 2023
 20. Fitness
 
+![Flow Chart](./Flow chart.jpg)
