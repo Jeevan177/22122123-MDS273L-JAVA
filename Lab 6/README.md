@@ -94,4 +94,4 @@ The top categories are:
 19. Elections 2023
 20. Fitness
 
-![Flow Chart](./Flow chart.jpg)
+![Flowchart](Flow%20chart.jpg)
